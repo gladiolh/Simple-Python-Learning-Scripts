@@ -1,0 +1,7 @@
+menue   =  {"en":{"file":"File","new":"New","open":"Open","save":"Save","safe as":"Safe as","print preview":"Print preview","print":"Print","close":"Close","exit":"Exit"},
+            "fr":{"file":"Fichier","new":"Nouveau","open":"Ouvrir","save":"Enregister","safe as":"Enregister sous","print preview":"Apercu avant impressioner","print":"Imprimer","close":"Fermer","exit":"Quitter"},
+            "de":{"file":"Datei","new":"Neu","open":"Oeffnen","save":"Speichern","safe as":"Speichern unter","print preview":"Vorschau Drucken","print":"Drucken","close":"Schliessen","exit":"Beenden"},
+            "it":{"file":"File","new":"Nouvo","open":"Apri","save":"Salva","safe as":"Salva come","print preview":"Anteprima di stampa","print":"Stampa","close":"Chiudi","exit":"Esci"}}
+language = input("Which language?")
+current_dic = menue[language]
+print(current_dic)
