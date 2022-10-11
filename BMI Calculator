@@ -1,0 +1,16 @@
+grösse = float(input("Deine grösse in cm?: "))
+gewicht = float(input("Dein Gewicht in kg?: "))
+BMI = gewicht / (grösse/100)**2
+print(f"Dein BMI ist: {BMI}")
+if BMI <= 18.4:
+    print("Du bist Untergewichtig")
+elif BMI <= 24.9:
+    print("Dein BMI ist absolut in Ordnung")
+elif BMI <= 29.9:
+    print("Du bist übergewichtig")
+elif BMI <= 34.9:
+    print("Du bist stark übergewichtig")
+elif BMI <= 39.9:
+    print("Du hast Adipositas!!.")
+else:
+    print("Eine Diät wäre angebracht")
