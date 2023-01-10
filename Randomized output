@@ -1,0 +1,18 @@
+import random
+
+# Generating a random integer between 1 and 100
+random_int = random.randint(1, 100)
+print(random_int)
+
+# Generating a random float between 0 and 1
+random_float = random.uniform(0, 1)
+print(random_float)
+
+# Generating a random element from a list
+items = [1, 2, 3, 4, 5]
+random_item = random.choice(items)
+print(random_item)
+
+# Shuffling the elements of a list
+random.shuffle(items)
+print(items)
